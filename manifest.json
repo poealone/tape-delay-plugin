@@ -1,0 +1,21 @@
+{
+    "name": "Tape Delay",
+    "author": "PocketDAW",
+    "version": "1.0.0",
+    "description": "Warm stereo tape delay with low-pass filtered feedback and stereo spread",
+    "type": "effect",
+    "library": "tape-delay.so",
+    "params": [
+        { "name": "Time",     "default": 0.35, "widget": "knob", "orientation": "radial", "navGroup": "knobs", "navOrder": 0 },
+        { "name": "Feedback", "default": 0.45, "widget": "knob", "orientation": "radial", "navGroup": "knobs", "navOrder": 1 },
+        { "name": "Mix",      "default": 0.30, "widget": "knob", "orientation": "radial", "navGroup": "knobs", "navOrder": 2 },
+        { "name": "Tone",     "default": 0.40, "widget": "knob", "orientation": "radial", "navGroup": "knobs", "navOrder": 3 },
+        { "name": "Spread",   "default": 0.50, "widget": "knob", "orientation": "radial", "navGroup": "knobs", "navOrder": 4 }
+    ],
+    "ui": {
+        "accent": [60, 180, 255],
+        "navGroups": {
+            "knobs": { "layout": "horizontal", "wrap": false }
+        }
+    }
+}
